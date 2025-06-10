@@ -1,0 +1,155 @@
+/* Footer.css */
+.footer {
+  background-color: #1e293b;
+  color: white;
+  padding: 4rem 1rem;
+}
+
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .footer-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-description {
+  color: #d1d5db;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons a {
+  color: #9ca3af;
+  transition: color 0.3s;
+}
+.social-icons a:hover {
+  color: #60a5fa;
+}
+
+.footer-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.footer-links,
+.footer-contact {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li,
+.footer-contact li {
+  margin-bottom: 0.75rem;
+}
+
+.footer-links a {
+  color: #d1d5db;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.footer-links a:hover {
+  color: white;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #d1d5db;
+}
+
+.newsletter {
+  border-top: 1px solid #374151;
+  padding-top: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.newsletter h3 {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+.newsletter p {
+  color: #d1d5db;
+  margin-bottom: 1.5rem;
+}
+
+.newsletter-input {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.newsletter-input input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  background-color: #374151;
+  border: none;
+  color: white;
+  border-radius: 9999px 0 0 9999px;
+}
+
+.newsletter-input button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0 9999px 9999px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.newsletter-input button:hover {
+  background-color: #1e40af;
+}
+
+.bottom-bar {
+  border-top: 1px solid #374151;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+.bottom-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.bottom-links a {
+  color: #9ca3af;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.bottom-links a:hover {
+  color: white;
+}

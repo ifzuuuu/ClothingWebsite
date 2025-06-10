@@ -1,0 +1,28 @@
+.app-container {
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.featured-header,
+.search-results {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle,
+.result-count {
+  font-size: 16px;
+  color: #6b7280;
+}

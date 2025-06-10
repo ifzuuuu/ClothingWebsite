@@ -1,0 +1,153 @@
+/* Header.css */
+
+.header {
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  /* display: flex;
+  justify-content: space-between; */
+
+}
+
+.header-inner {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+.header-right{
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1e293b;
+
+  > span {
+    color: #2563eb;
+  }
+}
+
+
+.nav-links {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+.nav-link {
+  color: #334155;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #2563eb;
+}
+
+.search-bar {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f1f5f9;
+    border-radius: 9999px;
+    padding: 0.5rem 1rem;
+    width: 320px;
+  }
+}
+
+.search-bar input {
+  background: transparent;
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 0.875rem;
+  color: #334155;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  color: #334155;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.icon-button:hover {
+  color: #2563eb;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background-color: #ef4444;
+  color: white;
+  font-size: 0.75rem;
+  border-radius: 9999px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .mobile-menu {
+    display: block;
+    padding: 1rem 0;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .mobile-menu nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .mobile-link {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    color: #334155;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .mobile-link:hover {
+    color: #2563eb;
+  }
+}

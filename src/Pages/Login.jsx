@@ -10,6 +10,7 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     alert("Logged in as: " + email);
+    navigate("/"); // 👈 This line is added to redirect to Home after login
   };
 
   return (
@@ -32,7 +33,9 @@ const Login = () => {
         />
         <button type="submit">Login</button>
       </form>
-      <p className="link" onClick={() => navigate("/signup")}>Don't have an account? Sign up</p>
+      <p className="link" onClick={() => navigate("/signup")}>
+        Don't have an account? Sign up
+      </p>
     </div>
   );
 };

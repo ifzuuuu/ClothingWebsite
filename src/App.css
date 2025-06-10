@@ -1,4 +1,4 @@
-/* Make the whole page center its content */
+/* 
 body, html, #root {
   height: 100%;
   width: 100%;
@@ -13,7 +13,7 @@ body, html, #root {
   align-items: center;
 }
 
-/* Container for the form */
+
 .container {
   width: 100%;
   max-width: 400px;
@@ -25,7 +25,7 @@ body, html, #root {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Form layout */
+
 form {
   display: flex;
   flex-direction: column;
@@ -58,4 +58,4 @@ button:hover {
   cursor: pointer;
   margin-top: 10px;
   text-decoration: underline;
-}
+} */
