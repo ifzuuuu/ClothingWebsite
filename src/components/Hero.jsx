@@ -1,8 +1,15 @@
 import React from 'react';
 import '../css/Hero.css';
 import { ArrowRight, Play } from 'lucide-react';
+import { useNavigate } from 'react-router-dom'; // ✅ Import useNavigate
 
 const Hero = () => {
+  const navigate = useNavigate(); // ✅ Initialize navigate function
+
+  const handleShopNow = () => {
+    navigate('/ProductPage'); // ✅ Navigate to /products route
+  };
+
   return (
     <section className="hero">
       <div className="hero-container">
@@ -18,7 +25,7 @@ const Hero = () => {
           </div>
 
           <div className="hero-buttons">
-            <button className="btn-primary">
+            <button className="btn-primary" onClick={handleShopNow}>
               <span>Shop Now</span>
               <ArrowRight size={20} />
             </button>
