@@ -7,6 +7,7 @@ import Brands from '../components/Brands';
 import Services from '../components/Services';
 import Testimonials from '../components/Testimonials';
 import Footer from '../components/Footer';
+import ShoppingCart from "../components/ShoppingCart";
 
 const styles = {
   container: {
@@ -28,6 +29,9 @@ function Home() {
       <Services />
       <Testimonials />
       <Footer />
+      
+    <ShoppingCart cartItems={[]} />
+
     </div>
   );
 }

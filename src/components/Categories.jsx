@@ -1,34 +1,44 @@
 import React from 'react';
 import '../css/Categories.css';
+import { useNavigate } from 'react-router-dom';
+
 
 const categories = [
   {
-    title: "Eyeglasses",
-    subtitle: "Prescription & Fashion",
-    image: "https://images.pexels.com/photos/947885/pexels-photo-947885.jpeg?auto=compress&cs=tinysrgb&w=400",
+    title: "Kid's wear",
+    subtitle: "Prescription & Fashion eyewear for kids",
+    image: "Kids.jpg",
     gradient: "blue"
   },
   {
-    title: "Sunglasses",
-    subtitle: "UV Protection & Style",
-    image: "https://images.pexels.com/photos/1674751/pexels-photo-1674751.jpeg?auto=compress&cs=tinysrgb&w=400",
+    title: "Men's wear",
+    subtitle: "UV Protection & Stylish eyewear for men",
+    image: "Mens.jpg",
     gradient: "orange"
   },
   {
-    title: "Contact Lenses",
-    subtitle: "Daily & Monthly",
-    image: "https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=400",
+    title: "Women's wear",
+    subtitle: "Daily & Monthly eyewear options for women",
+    image: "Womens.jpg",
     gradient: "green"
   },
   {
-    title: "Kids Eyewear",
-    subtitle: "Safe & Comfortable",
-    image: "https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=400",
+    title: "Gym's wear",
+    subtitle: "Safe & Comfortable eyewear for gym-goers",
+    image: "Gym.jpg",
     gradient: "pink"
   }
 ];
 
 const Categories = () => {
+  const navigate = useNavigate();
+
+  const handleCategoryClick = (categoryTitle) => {
+    if (categoryTitle === "Kid's wear") {
+      navigate('/KidsProduct');
+    }
+  };
+
   return (
     <section className="categories-section">
       <div className="categories-container">
@@ -42,6 +52,8 @@ const Categories = () => {
             <div
               key={index}
               className={`category-card group gradient-${category.gradient}`}
+              onClick={() => handleCategoryClick(category.title)}
+              style={{ cursor: 'pointer' }}
             >
               <div className="category-image-wrapper">
                 <img
@@ -49,7 +61,7 @@ const Categories = () => {
                   alt={category.title}
                   className="category-image"
                 />
-                <div className={`category-overlay`}></div>
+                <div className="category-overlay"></div>
               </div>
 
               <div className="category-content">
@@ -64,5 +76,6 @@ const Categories = () => {
     </section>
   );
 };
+
 
 export default Categories;

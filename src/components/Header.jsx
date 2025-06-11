@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../css/Header.css';
-import { Search, ShoppingBag, User, Menu, X, Eye,Shirt } from 'lucide-react';
+import { Search, ShoppingBag, User, Menu, X, Eye,Shirt,LogIn } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <header className="header">
@@ -34,8 +36,8 @@ const Header = () => {
           <button className="icon-button lg-hidden">
             <Search size={24} />
           </button>
-          <button className="icon-button">
-            <User size={24} />
+          <button onClick={() => navigate('/auth')} className="icon-button">
+            <LogIn size={24} />
           </button>
           <button className="icon-button" style={{ position: 'relative' }}>
             <ShoppingBag size={24} />

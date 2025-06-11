@@ -129,3 +129,4 @@ export const categories = [
   { id: 'womens', name: "Women's Clothing", count: products.filter(p => p.category === 'womens').length },
   { id: 'kids', name: "Kids' Clothing", count: products.filter(p => p.category === 'kids').length }
 ];
+export const ageGroups = ['2-3Y', '4-5Y', '6-7Y', '8-9Y', 'Teens', 'Adults'];

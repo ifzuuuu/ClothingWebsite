@@ -10,11 +10,10 @@ const Hero = () => {
         <div>
           <div>
             <h1 className="hero-title">
-              See the World <span className="hero-highlight">Clearly</span>
+              Step up your <span className="hero-highlight">Wardrobe</span>
             </h1>
             <p className="hero-description">
-              Discover premium eyewear that combines style, comfort, and crystal-clear vision. 
-              From classic frames to modern designs, find your perfect pair.
+              Discover the latest fashion trends and elevate your style with our premium clothing collection. 
             </p>
           </div>
 
@@ -48,7 +47,7 @@ const Hero = () => {
         {/* Right Content - Hero Image */}
         <div className="hero-image-container">
           <img
-            src="https://images.pexels.com/photos/4226881/pexels-photo-4226881.jpeg?auto=compress&cs=tinysrgb&w=800"
+            src="Banner1.jpg"
             alt="Premium Eyewear Collection"
             className="hero-image"
           />

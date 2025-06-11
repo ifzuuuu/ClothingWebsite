@@ -8,7 +8,7 @@ const testimonials = [
     name: "Sarah Johnson",
     location: "New York, NY",
     rating: 5,
-    text: "Amazing quality and service! The home eye test was incredibly convenient, and my new glasses fit perfectly. Highly recommended!",
+    text: "Amazing quality and service!",
     image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=200"
   },
   {
@@ -16,7 +16,7 @@ const testimonials = [
     name: "Michael Chen",
     location: "San Francisco, CA",
     rating: 5,
-    text: "Great selection of frames and excellent customer service. The virtual try-on feature helped me choose the perfect pair.",
+    text: "I've been buying from this brand for years, and the quality has always been top-notch",
     image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=200"
   },
   {
@@ -24,7 +24,7 @@ const testimonials = [
     name: "Emily Rodriguez",
     location: "Austin, TX",
     rating: 5,
-    text: "Best eyewear shopping experience ever! Fast delivery, perfect fit, and the quality exceeded my expectations.",
+    text: "I'm impressed with the quality of these clothes",
     image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=200"
   }
 ];

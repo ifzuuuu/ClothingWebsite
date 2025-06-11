@@ -2,12 +2,12 @@ import React from 'react';
 import '../css/Brands.css'; // import the CSS file
 
 const brands = [
-  { name: "RayBan", logo: "https://images.pexels.com/photos/1674752/pexels-photo-1674752.jpeg?auto=compress&cs=tinysrgb&w=200" },
-  { name: "Oakley", logo: "https://images.pexels.com/photos/1674751/pexels-photo-1674751.jpeg?auto=compress&cs=tinysrgb&w=200" },
-  { name: "Gucci", logo: "https://images.pexels.com/photos/947885/pexels-photo-947885.jpeg?auto=compress&cs=tinysrgb&w=200" },
-  { name: "Prada", logo: "https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=200" },
-  { name: "Tom Ford", logo: "https://images.pexels.com/photos/1663455/pexels-photo-1663455.jpeg?auto=compress&cs=tinysrgb&w=200" },
-  { name: "Versace", logo: "https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg?auto=compress&cs=tinysrgb&w=200" }
+  { name: "Zara", logo: "zara.jpg" },
+  { name: "H&M", logo: "H&MTshirt.jpg" },
+  { name: "Diesel", logo: "DieselJacket.jpg" },
+  { name: "Nike", logo: "NikePullover.jpg" },
+  { name: "Supreme", logo: "SupremeHoodie.jpg" },
+  { name: "Gucci", logo: "GucciJacket.jpg" }
 ];
 
 const Brands = () => {

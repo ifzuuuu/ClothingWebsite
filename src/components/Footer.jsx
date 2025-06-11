@@ -10,10 +10,10 @@ const Footer = () => {
         <div>
           <div className="footer-logo">
             <Eye size={32} color="#60a5fa" />
-            <span>VisionCraft</span>
+            <span>SolkarAtelier</span>
           </div>
           <p className="footer-description">
-            Your trusted partner for premium eyewear solutions. We combine style, comfort, and technology to bring you the perfect vision experience.
+            Your go-to destination for premium clothing. We blend style, comfort, and quality to bring you the perfect wardrobe experience.
           </p>
           <div className="social-icons">
             <a href="#"><Facebook size={24} /></a>
@@ -51,9 +51,9 @@ const Footer = () => {
         <div>
           <h3 className="footer-title">Get in Touch</h3>
           <ul className="footer-contact">
-            <li className="contact-item"><Phone size={18} color="#60a5fa" /> 1-800-VISION-1</li>
-            <li className="contact-item"><Mail size={18} color="#60a5fa" /> hello@visioncraft.com</li>
-            <li className="contact-item"><MapPin size={18} color="#60a5fa" /> 123 Vision Street, New York, NY 10001</li>
+            <li className="contact-item"><Phone size={18} color="#60a5fa" /> +917066532018</li>
+            <li className="contact-item"><Mail size={18} color="#60a5fa" /> ifzalsolkar06@gmail.com</li>
+            <li className="contact-item"><MapPin size={18} color="#60a5fa" /> At post Mandvi, Ratnagiri 415612 </li>
           </ul>
         </div>
       </div>

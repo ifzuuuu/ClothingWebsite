@@ -5,8 +5,8 @@ import { Home, Shield, Truck, Clock } from 'lucide-react';
 const services = [
   {
     icon: Home,
-    title: "Home Eye Test",
-    description: "Professional eye testing at your doorstep with certified optometrists",
+    title: "Style At Home",
+    description: "the focus on clothing fitting and styling",
     colorClass: "bg-blue"
   },
   {
@@ -18,13 +18,13 @@ const services = [
   {
     icon: Truck,
     title: "Free Shipping",
-    description: "Complimentary delivery on all orders above $50 with tracking",
+    description: "Complimentary delivery on all orders above 500/- with tracking",
     colorClass: "bg-purple"
   },
   {
     icon: Clock,
     title: "Express Service",
-    description: "Same-day repairs and 24-hour lens replacement service",
+    description: "Same-day 24-hour replacement service",
     colorClass: "bg-amber"
   }
 ];

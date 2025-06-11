@@ -1,0 +1,154 @@
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.header-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  color: #666;
+}
+
+.menu-button:hover {
+  color: #9333ea;
+  background-color: #f3e8ff;
+  border-radius: 0.375rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-circle {
+  background: linear-gradient(to right, #9333ea, #ec4899);
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.125rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #9333ea, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 0.75rem;
+}
+
+.search-bar {
+  flex: 1;
+  max-width: 32rem;
+  margin: 0 2rem;
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #9ca3af;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem 0.75rem 0.5rem 2.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 9999px;
+  background-color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: 0 0 0 2px #9333ea55;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: #666;
+  cursor: pointer;
+  position: relative;
+}
+
+.action-button:hover {
+  color: #9333ea;
+  background-color: #f3e8ff;
+}
+
+.cart-button .cart-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: linear-gradient(to right, #9333ea, #ec4899);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  .mobile-search {
+    padding: 1rem 0;
+    position: relative;
+  }
+}
