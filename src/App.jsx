@@ -6,8 +6,9 @@ import ProductPage from "./Pages/ProductPage";
 import FilterSidebar from "./components/FilterSidebar";
 import ProductModal from "./components/ProductModal";
 import KidsProduct from './Pages/KidsProduct';
-
-
+import Camera from "./Pages/Camera";
+import ProductRecommendations from "./components/ProductRecommendations";
+import MeasurementResults from "./components/MeasurementResults";
 
 const App = () => {
   return (
@@ -19,6 +20,9 @@ const App = () => {
         <Route path="/productModal" element={<ProductModal />} />
         <Route path="/FilterSidebar" element={<FilterSidebar />} />
         <Route path="/KidsProduct" element={<KidsProduct />} />
+          <Route path="/Camera" element={<Camera />} />
+            <Route path="/ProductRecommendations" element={<ProductRecommendations />} />
+            <Route path="/MeasurementResults" element={<MeasurementResults />} />
       </Routes>
     </Router>
   );

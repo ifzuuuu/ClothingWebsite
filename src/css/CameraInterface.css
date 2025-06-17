@@ -1,0 +1,163 @@
+.camera-wrapper {
+  max-width: 700px;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.video-container {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background-color: #111;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.video-feed {
+ .video-feed {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  background: #000;
+  object-fit: cover;
+}
+
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-content {
+  color: white;
+  text-align: center;
+}
+
+.scan-message {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+  width: 250px;
+  height: 8px;
+  background-color: #444;
+  border-radius: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(to right, #a855f7, #ec4899);
+  transition: width 0.3s ease-in-out;
+}
+
+.progress-text {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+.guide-outline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 280px;
+  transform: translate(-50%, -50%);
+  border: 2px dashed #a855f7;
+  border-radius: 50%;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.camera-permission {
+  color: white;
+  padding: 2rem;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.scan-button-wrapper {
+  margin-top: 1.5rem;
+}
+
+.scan-button {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.scan-button.active {
+  background: linear-gradient(to right, #9333ea, #ec4899);
+  color: white;
+}
+
+.scan-button.disabled {
+  background-color: #444;
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.instructions {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+.guide-overlay {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  animation: pulse 1.5s infinite;
+}
+
+.scan-popup {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  z-index: 100;
+  text-align: center;
+}
+
+.popup-content h2 {
+  margin-bottom: 0.5rem;
+}
+
+.popup-content button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.height-input-wrapper {
+  margin-top: 1rem;
+  text-align: center;
+}

@@ -1,0 +1,147 @@
+.measurement-container {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h2 {
+  font-size: 2rem;
+  color: #2d2d2d;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  color: #666;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.card-header h3 {
+  margin-left: 0.75rem;
+  font-size: 1.2rem;
+  color: #2d2d2d;
+}
+
+.info-pairs > div,
+.info-block > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.3rem 0;
+}
+
+.info-block label {
+  color: #666;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.info-block strong {
+  color: #e11d48;
+  font-size: 1.2rem;
+}
+
+.skin-tone-info {
+  display: flex;
+  align-items: center;
+}
+
+.color-box {
+  width: 48px;
+  height: 48px;
+  border-radius: 9999px;
+  margin-right: 1rem;
+  border: 2px solid white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.tone {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.undertone {
+  font-size: 0.9rem;
+  color: #555;
+  text-transform: capitalize;
+}
+
+.style-tips {
+  margin-top: 2rem;
+  background: linear-gradient(to right, #f5f3ff, #fff1f2);
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+
+.recommendations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.recommendations h4 {
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+.recommendations ul {
+  padding-left: 1rem;
+  color: #555;
+}
+
+.recommendations li {
+  margin-bottom: 0.4rem;
+  list-style: disc;
+}
+
+.purple-bg {
+  background: linear-gradient(to bottom right, #faf5ff, #ede9fe);
+}
+
+.pink-bg {
+  background: linear-gradient(to bottom right, #fff1f2, #ffe4e6);
+}
+
+.orange-bg {
+  background: linear-gradient(to bottom right, #fff7ed, #ffedd5);
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.purple-icon {
+  color: #9333ea;
+}
+
+.pink-icon {
+  color: #ec4899;
+}
+
+.orange-icon {
+  color: #f97316;
+}

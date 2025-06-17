@@ -1,0 +1,38 @@
+.analysis-container {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.analysis-container button {
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.analysis-container button:disabled {
+  background-color: #ccc;
+}
+
+.results {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+  max-width: 400px;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+
+.tone-box {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #333;
+  margin: 10px auto;
+}

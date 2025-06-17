@@ -1,13 +1,13 @@
 import React from 'react';
 import '../css/Hero.css';
 import { ArrowRight, Play } from 'lucide-react';
-import { useNavigate } from 'react-router-dom'; // ✅ Import useNavigate
+import { useNavigate } from 'react-router-dom'; 
 
 const Hero = () => {
-  const navigate = useNavigate(); // ✅ Initialize navigate function
+  const navigate = useNavigate(); // 
 
   const handleShopNow = () => {
-    navigate('/ProductPage'); // ✅ Navigate to /products route
+    navigate('/ProductPage'); 
   };
 
   return (
